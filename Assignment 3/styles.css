@@ -1,0 +1,22 @@
+.list-group {
+    max-width: 100px;
+    max-height: 150px;
+    overflow-y: scroll;
+}
+
+.list-group li {
+    cursor: pointer;
+}
+
+.item-1,
+.item-3 {
+    border: 1px solid black;
+}
+
+.item-2 {
+    margin: auto 10px;
+}
+
+.selected-elements {
+    background-color: rgb(23, 220, 220);
+}
